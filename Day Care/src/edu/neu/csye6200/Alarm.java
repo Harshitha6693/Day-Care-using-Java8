@@ -113,12 +113,7 @@ public class Alarm implements Comparable<Student>{
 		students.add(a17);
 		students.add(a18);
 		
-		
 //		students.stream().sorted()
-		
-		
-		
-		
 		
 		for(Student x: students) {
 			System.out.println(x);
@@ -127,9 +122,7 @@ public class Alarm implements Comparable<Student>{
 			birthdayStatus(x);
 			System.out.println("\n");
 		}	
-		
-		
-		
+			
 	}
 
 	@Override
